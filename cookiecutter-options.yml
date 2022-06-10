@@ -1,0 +1,9 @@
+default_context:
+    project_name: "duck_api"
+    app_name: "duckapi"
+    python_version: "3.8"
+    admin_user_username: "demuirg"
+    admin_user_email: "meister@ziegel.me"
+    admin_user_password: "nuttela1"
+    use_celery: "yes"
+    wsgi_server: "none"
