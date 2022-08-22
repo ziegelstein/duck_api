@@ -7,6 +7,7 @@ from duckapi.extensions import db
 from duckapi.extensions import jwt
 from duckapi.extensions import migrate, celery
 
+app = Flask("duckapi")
 
 def create_app(testing=False):
     """Application factory, used to create application"""

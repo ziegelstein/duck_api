@@ -1,6 +1,8 @@
 from flask import request
 from flask_restful import Resource
 from flask_jwt_extended import jwt_required
+from sqlalchemy.sql import func
+from sqlalchemy.orm import load_only
 from duckapi.api.schemas import DuckSchema
 from duckapi.models import Duck
 from duckapi.extensions import db
@@ -84,10 +86,15 @@ class DuckResource(Resource):
 
     method_decorators = [jwt_required()]
 
-    def get(self, user_id):
+    def get(self, duck_id):
         schema = DuckSchema()
-        duck = Duck.query.get_or_404(user_id)
+        duck = Duck.query.get_or_404(duck_id)
         return {"duck": schema.dump(duck)}
+
+    def getRandom(self):
+      schema = DuckSchema(many=True)
+      query = Duck.query.order_by(func.random()).first()
+      return paginate(query, schema)
 
     def put(self, duck_id):
         schema = DuckSchema(partial=True)
@@ -161,7 +168,7 @@ class DuckList(Resource):
         schema = DuckSchema()
         duck = schema.load(request.json)
 
-        db.session.add(user)
+        db.session.add(duck)
         db.session.commit()
 
-        return {"msg": "Duck created", "duck": schema.dump(duck)}, 201
+        return {"msg": "Quack.", "duck": schema.dump(duck)}, 201

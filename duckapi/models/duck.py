@@ -9,8 +9,8 @@ class Duck(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     duckname = db.Column(db.String(80), unique=True, nullable=False)
     picture_url = db.Column(db.String(256), unique=True, nullable=False)
-    video_url = db.Column(db.String(256), db.String(255), nullable=False)
+    video_url = db.Column(db.String(256), unique=True, nullable=False)
     active = db.Column(db.Boolean, default=True)
 
     def __repr__(self):
-        return "<User %s>" % self.username
+        return "<duck %s>" % self.duckname
