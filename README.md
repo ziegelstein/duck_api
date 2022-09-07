@@ -19,7 +19,7 @@
 <h3 align="center">Duck Api</h3>
 
   <p align="center">
-    This is a small fun project to make ducks more accessiable to the world! It exposes duck endpoints to the public and also has a small backend for adding more duck content. It is heavily work in progress. [Watch the demo](https://duck.ziegel.me) to see it in action!
+    This is a small fun project to make ducks more accessiable to the world! It exposes duck endpoints to the public and also has a small backend for adding more duck content. It is heavily work in progress. [Watch the demo]("https://duck.ziegel.me") to see it in action!
     <br />
     <a href="https://github.com/ziegelstein/duck_api"><strong>Explore the docs »</strong></a>
     <br />
@@ -236,7 +236,7 @@ None yet, but maybe someone wants to contribute?
 [issues-shield]: https://img.shields.io/github/issues/Ziegelstein/duck_api.svg?style=for-the-badge
 [issues-url]: https://github.com/Ziegelstein/duck_api/issues
 [license-shield]: https://img.shields.io/github/license/Ziegelstein/duck_api.svg?style=for-the-badge
-[license-url]: https://github.com/Ziegelstein/duck_api/blob/master/LICENSE.txt
+[license-url]: https://github.com/Ziegelstein/duck_api//license.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/fenja-frings-b100b916b/
 [product-screenshot]: images/screenshot.png
@@ -250,7 +250,7 @@ None yet, but maybe someone wants to contribute?
 [sqlalchemy-url]: https://www.sqlalchemy.org/
 [tox]: https://img.shields.io/badge/tox-4A4A55?style=for-the-badge&logo=tox&logoColor=FF3E00
 [tox-url]: https://tox.wiki/en/latest/
-[apispec]: https://img.shields.io/apispec/Laravel-FF2D20?style=for-the-badge&logo=apispec&logoColor=white
+[apispec]: https://img.shields.io/badge/Lapispec?style=for-the-badge&logo=apispec&logoColor=white
 [apispec-url]: https://apispec.readthedocs.io/en/latest/index.html
 [docker]: https://img.shields.io/badge/Docker-563D7C?style=for-the-badge&logo=docker&logoColor=white
 [docker-url]: https://www.docker.com/
