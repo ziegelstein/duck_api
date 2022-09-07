@@ -235,7 +235,7 @@ None yet, but maybe someone wants to contribute?
 [stars-url]: https://github.com/Ziegelstein/duck_api/stargazers
 [issues-shield]: https://img.shields.io/github/issues/Ziegelstein/duck_api.svg?style=for-the-badge
 [issues-url]: https://github.com/Ziegelstein/duck_api/issues
-[license-shield]: https://img.shields.io/github/license/Ziegelstein/duck_api.svg?style=for-the-badge
+[license-shield]: https://img.shields.io/github/license/Ziegelstein/duck_api.svg?style=MIT
 [license-url]: https://github.com/Ziegelstein/duck_api/blob/main/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/fenja-frings-b100b916b/
@@ -250,7 +250,7 @@ None yet, but maybe someone wants to contribute?
 [sqlalchemy-url]: https://www.sqlalchemy.org/
 [tox]: https://img.shields.io/badge/tox-4A4A55?style=for-the-badge&logo=tox&logoColor=FF3E00
 [tox-url]: https://tox.wiki/en/latest/
-[apispec]: https://img.shields.io/badge/Lapispec?style=for-the-badge&logo=apispec&logoColor=white
+[apispec]: https://img.shields.io/badge/apispec-DD0031?style=for-the-badge&logo=apispec&logoColor=white
 [apispec-url]: https://apispec.readthedocs.io/en/latest/index.html
 [docker]: https://img.shields.io/badge/Docker-563D7C?style=for-the-badge&logo=docker&logoColor=white
 [docker-url]: https://www.docker.com/
